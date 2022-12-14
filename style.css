@@ -26,10 +26,6 @@ img {
     border-radius: 50%;
 }
 
-.links {
-    padding-bottom: 40px;
-}
-
 .links a, input{
     width: 400px;
     height: 40px;
@@ -51,7 +47,11 @@ img {
 input:hover {
     background-color: red;
     cursor: pointer;
-}  
+} 
+
+.end {
+    height: 40px;
+}
 
 
 @media screen and (max-width: 900px) {
