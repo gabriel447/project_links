@@ -26,6 +26,10 @@ img {
     border-radius: 50%;
 }
 
+.links {
+    padding-bottom: 40px;
+}
+
 .links a, input{
     width: 400px;
     height: 40px;
