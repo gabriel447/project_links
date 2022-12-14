@@ -50,6 +50,9 @@ input:hover {
 }  
 
 
-
-
-
+@media screen and (max-width: 900px) {
+    .links a, input{
+        width: 300px;
+        height: 40px;
+    }
+}
