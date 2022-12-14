@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    background-color: gray;
+    height: 220px;
+    margin-bottom: 50px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img {
+    display: flex;
+    align-self: center;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.links a, input{
+    width: 400px;
+    height: 40px;
+}
+
+.links a {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-decoration: none; 
+}
+
+.links input {
+    border-radius: 8px;
+    color: white;
+    background-color: tomato;
+}
+
+input:hover {
+    background-color: red;
+    cursor: pointer;
+}  
+
+
+
+
+
